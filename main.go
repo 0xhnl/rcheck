@@ -17,7 +17,7 @@ const (
 
 func main() {
     if len(os.Args) < 2 {
-        fmt.Println("Usage: go run main.go <input_file>")
+        fmt.Println("Usage: rcheck domains.txt")
         os.Exit(1)
     }
     inputFile := os.Args[1]
