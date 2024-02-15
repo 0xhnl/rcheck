@@ -14,7 +14,7 @@ rcheck offers a straightforward command-line interface, making it easy to use fo
 You can use the following command to install rcheck:
 
 ```bash
-go install -v github.com/0xhnl/rcheck
+go install -v github.com/0xhnl/rcheck@latest
 ```
 
 # Usage
