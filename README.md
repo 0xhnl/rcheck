@@ -23,38 +23,76 @@ You can use the following command to scan the list of targets.
 
 ```bash
 $ rcheck dummy.txt
-SPF record found for api.hackerone.com: "70gn9hp69jzpn3nkp42r8n9jwwtd1d70"
-"v=spf1 -all"
-
-DMARC record not found for api.hackerone.com
+Not Found SPF record for b.ns.hackerone.com
+Not Found DMARC record for b.ns.hackerone.com
 --------------------------
-SPF record not found for gslink.hackerone.com
-DMARC record not found for gslink.hackerone.com
+Not Found SPF record for gslink.hackerone.com
+Not Found DMARC record for gslink.hackerone.com
 --------------------------
-SPF record found for support.hackerone.com: "v=spf1 -all"
-
-DMARC record not found for support.hackerone.com
+Not Found SPF record for mta-sts.managed.hackerone.com
+Not Found DMARC record for mta-sts.managed.hackerone.com
 --------------------------
-SPF record not found for go.hackerone.com
-DMARC record not found for go.hackerone.com
+Found SPF record for support.hackerone.com
+Not Found DMARC record for support.hackerone.com
 --------------------------
-SPF record not found for 3d.hackerone.com
-DMARC record not found for 3d.hackerone.com
+Not Found SPF record for a.ns.hackerone.com
+Not Found DMARC record for a.ns.hackerone.com
 --------------------------
-SPF record not found for _dmarc.hackerone.com
-DMARC record not found for _dmarc.hackerone.com
+Found SPF record for zendesk3.hackerone.com
+Not Found DMARC record for zendesk3.hackerone.com
 --------------------------
-SPF record not found for resources.hackerone.com
-DMARC record not found for resources.hackerone.com
+Not Found SPF record for docs.hackerone.com
+Not Found DMARC record for docs.hackerone.com
 --------------------------
-SPF record not found for info.hackerone.com
-DMARC record not found for info.hackerone.com
+Not Found SPF record for mta-sts.forwarding.hackerone.com
+Not Found DMARC record for mta-sts.forwarding.hackerone.com
 --------------------------
-SPF record found for fwdkim1.hackerone.com: spfmx1.domainkey.freshemail.io.
-"v=spf1 include:sendgrid.net include:fdspfus.freshemail.io include:fdspfeuc.freshemail.io include:fdspfind.freshemail.io include:fdspfaus.freshemail.io ~all"
-
-DMARC record not found for fwdkim1.hackerone.com
+Not Found SPF record for events.hackerone.com
+Not Found DMARC record for events.hackerone.com
 --------------------------
-SPF record not found for b.ns.hackerone.com
-DMARC record not found for b.ns.hackerone.com
+Not Found SPF record for design.hackerone.com
+Not Found DMARC record for design.hackerone.com
+--------------------------
+Found SPF record for fwdkim1.hackerone.com
+Not Found DMARC record for fwdkim1.hackerone.com
+--------------------------
+Found SPF record for hackerone.com
+Found DMARC record for hackerone.com
+--------------------------
+Not Found SPF record for _dmarc.hackerone.com
+Not Found DMARC record for _dmarc.hackerone.com
+--------------------------
+Not Found SPF record for mta-sts.hackerone.com
+Not Found DMARC record for mta-sts.hackerone.com
+--------------------------
+Found SPF record for zendesk1.hackerone.com
+Not Found DMARC record for zendesk1.hackerone.com
+--------------------------
+Not Found SPF record for 3d.hackerone.com
+Not Found DMARC record for 3d.hackerone.com
+--------------------------
+Found SPF record for zendesk4.hackerone.com
+Not Found DMARC record for zendesk4.hackerone.com
+--------------------------
+Found SPF record for api.hackerone.com
+Not Found DMARC record for api.hackerone.com
+--------------------------
+Not Found SPF record for resources.hackerone.com
+Not Found DMARC record for resources.hackerone.com
+--------------------------
+Found SPF record for www.hackerone.com
+Not Found DMARC record for www.hackerone.com
+--------------------------
+Found SPF record for zendesk2.hackerone.com
+Not Found DMARC record for zendesk2.hackerone.com
+--------------------------
+Not Found SPF record for links.hackerone.com
+Not Found DMARC record for links.hackerone.com
+--------------------------
+Not Found SPF record for go.hackerone.com
+Not Found DMARC record for go.hackerone.com
+--------------------------
+Not Found SPF record for info.hackerone.com
+Not Found DMARC record for info.hackerone.com
+--------------------------
 ```
