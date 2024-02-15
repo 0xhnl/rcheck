@@ -1,5 +1,3 @@
-# Domain Records Scanner
-
 rcheck is designed to simplify the process of verifying SPF (Sender Policy Framework) and DMARC (Domain-based Message Authentication, Reporting, and Conformance) records for any domain. With rcheck, you can quickly identify whether a domain has SPF and DMARC records configured, helping you ensure proper email authentication and security practices.
 
 # Features
