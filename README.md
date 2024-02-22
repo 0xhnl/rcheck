@@ -22,7 +22,7 @@ go install -v github.com/0xhnl/rcheck@latest
 You can use the following command to scan the list of targets.
 
 ```bash
-$ rcheck dummy.txt
+$ rcheck -i dummy.txt
 Not Found SPF record for b.ns.hackerone.com
 Not Found DMARC record for b.ns.hackerone.com
 --------------------------
